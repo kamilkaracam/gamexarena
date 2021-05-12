@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+
+    <title>Gamex Arena</title>
+
+    <style>
+        /* Some resets and issue fixes */
+        #outlook a {
+            padding: 0;
+        }
+
+        body {
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .backgroundTable {
+            margin: 0 auto;
+            padding: 0;
+            width: 100% !important;
+        }
+
+        table td {
+            border-collapse: collapse;
+        }
+
+        .ExternalClass * {
+            line-height: 115%;
+        }
+
+        /* End reset */
+
+        .txt-decoration-n a {
+            text-decoration: none !important;
+        }
+
+        .text-link-1 a {
+            color: #4e4e4e !important;
+        }
+
+        .text-link-2 a {
+            color: #221f1f !important;
+        }
+
+        .text-link-3 a {
+            color: #000000 !important;
+        }
+
+        .block-1 a {
+            color: #ffffff !important;
+            text-decoration: none !important;
+        }
+
+        /* These are our tablet/medium screen media queries */
+        @media screen and (max-width: 619px) {
+            *[class="hide"] {
+                display: none !important;
+            }
+
+            *[class="block"] {
+                display: block !important;
+            }
+
+            *[class="table-block"] {
+                display: block !important;
+                width: 100%;
+                padding: 20px 0 !important;
+                border-left: none !important;
+                border-right: none !important
+            }
+
+            *[class="g-full"] {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            *[class="content-logo"] {
+                padding: 10px 0 !important;
+            }
+
+            *[class="td-logo"] {
+                padding: 10px 0 !important;
+            }
+
+            *[class="buffer1"] {
+                padding: 15px 0 0 !important;
+            }
+
+        }
+    </style>
+</head>
+
+<body style="padding:0; margin:0" bgcolor="#dedede">
+
+    <table border="0" cellpadding="0" cellspacing="0" style="margin: 0; padding: 0" width="100%">
+        <tr>
+            <td class="hide"></td>
+            <td align="center" valign="top">
+                <table border="0" cellpadding="0" cellspacing="0" style="margin: 0; padding: 0" width="620" class="g-full" align="center">
+                    <tr>
+                        <td style="padding: 68px 10px">
+                            <table border="0" cellpadding="0" cellspacing="0" style="margin: 0; padding: 0" width="100%">
+                                <tr>
+                                    <!-- container -->
+                                    <td style="border: 1px solid #e2e2e2;" bgcolor="#ffffff">
+                                        <table border="0" cellpadding="0" cellspacing="0" style="margin: 0; padding: 0" width="100%">
+                                            <!-- logo -->
+                                            <tr>
+                                                <td align="center" valign="middle" class="td-logo" style="padding: 20px 0;">
+                                                    <a href="https://gamexarena.com" target="_blank" style="display: block; border: 0;">
+                                                        <img src="https://gamexarena.com/static/assets/img/gamex-logo.png" alt="Gamexarena" width="300" border="0" style="display: block;">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <!-- logo -->
+
+                                            <!-- hero -->
+                                            <tr>
+                                                <td class="buffer1">
+                                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                        <tr>
+                                                            <td align="" valign="middle" style="padding: 0 15px 50px;">
+                                                                <div style="font: normal 14px/19px Arial, sans-serif; color: #000000;">
+                                                                    <h3>Dear {{ user.first_name }} {{ user.last_name }},</h3>
+                                                                    <p>Welcome to the GamexArena, where you can earn money by playing Video Games.</p>
+                                                                <p>Click to e-mail validation link and complete your registration. <a href="https://gamexarena.com/verify-email/{{user.uuid}}" target="_blank">Verify</a></p>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <!-- hero -->
+
+                                            <!-- hero -->
+                                            <tr>
+                                                <td class="buffer1">
+                                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                        <tr>
+                                                            <td align="" valign="middle" style="padding: 0 15px 50px;">
+                                                                <div style="font: normal 14px/19px Arial, sans-serif; color: #000000;">
+                                                                    <h3>Sehr geehrte {{ user.first_name }} {{ user.last_name }},</h3>
+                                                                    <p>Willkommen zur GamexArena , wo du beim Spielen Geld verdienen kannst.</p>
+                                                                    <p>Deine Konto wurde erfolgreich erstellt. <a href="https://gamexarena.com/verify-email/{{user.uuid}}" target="_blank">Verifizieren</a></p>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <!-- hero -->
+
+                                            <!-- hero -->
+                                            <tr>
+                                                <td class="buffer1">
+                                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                        <tr>
+                                                            <td align="" valign="middle" style="padding: 0 15px 50px;">
+                                                                <div style="font: normal 14px/19px Arial, sans-serif; color: #000000;">
+                                                                    <h3>Sayın {{ user.first_name }} {{ user.last_name }},</h3>
+                                                                    <p>Oyuncular i̇çi̇n oyuncular tarafından hayata geçi̇ri̇lmi̇ş olan oyun oynuyarak para kazanabi̇leceği̇n GamexArena platformuna hoşgeldi̇ni̇z.</p>
+                                                                    <p>Üyeli̇ği̇ni̇z başarılı bi̇r şeki̇lde tamamlanması için email doğrulama linkine tıklayınız. <a href="https://gamexarena.com/verify-email/{{user.uuid}}" target="_blank">Doğrula</a></p>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <!-- hero -->
+                                        </table>
+                                    </td>
+                                    <!-- container -->
+                                </tr>
+                            </table>
+                        </td>
+
+                    </tr>
+                </table>
+            </td>
+            <td class="hide"></td>
+        </tr>
+    </table>
+
+    <!-- gmail mobile fix -->
+    <table cellpadding="0" cellspacing="0" border="0" class="hide">
+        <tr>
+            <td height="1" class="hide" style="min-width: 620px; font-size: 0; line-height: 0;">&nbsp;</td>
+        </tr>
+    </table>
+    <!-- gmail mobile fix -->
+</body>
+</html>
